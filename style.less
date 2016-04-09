@@ -1,0 +1,80 @@
+//color palette
+@primary: #A83F25;
+@primary-sub: #D38B5D;
+@secondary: #2C5530;
+@secondary-sub: #739E82;
+@yellow: #F3FFB6;
+
+.primary {
+	background: @primary;
+  height: 60px;
+}
+.primary-sub {
+	background: @primary-sub;
+	height: 60px;
+}
+.secondary {
+	background: @secondary;
+	height: 60px;
+}
+.secondary-sub {
+	background: @secondary-sub;
+	height: 60px;
+}
+.light {
+	background: @yellow;
+	height: 60px;
+}
+
+// link
+a, .btn-link {
+	color: @primary;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+// buttons
+.btn {
+	padding: 12px 15px;
+	border-radius: 0;
+}
+.btn-sm {
+	padding: 10px 12px;
+}
+.btn-xs {
+	padding: 6px 10px;
+}
+.btn-primary {
+	background: @primary;
+	border: 1px solid @primary;
+	&:hover,&:active,&:focus {
+		background: @primary-sub;
+		border: 1px solid @primary;
+	}
+}
+.btn-success, .btn-secondary {
+	background: @secondary;
+	border: 1px solid @secondary;
+	&:hover,&:active,&:focus {
+		background: @secondary-sub;
+		border: 1px solid @secondary;
+	}
+}
+
+// testimonial
+q {
+  quotes: "“" "”" "‘" "’";
+}
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
+}
+.testimonial {
+	blockquote {
+		border: none;
+		padding: 10px 0;
+	}
+}

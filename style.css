@@ -1,0 +1,75 @@
+.primary {
+  background: #A83F25;
+  height: 60px;
+}
+.primary-sub {
+  background: #D38B5D;
+  height: 60px;
+}
+.secondary {
+  background: #2C5530;
+  height: 60px;
+}
+.secondary-sub {
+  background: #739E82;
+  height: 60px;
+}
+.light {
+  background: #F3FFB6;
+  height: 60px;
+}
+a,
+.btn-link {
+  color: #A83F25;
+}
+a:hover,
+.btn-link:hover {
+  text-decoration: none;
+}
+.btn {
+  padding: 12px 15px;
+  border-radius: 0;
+}
+.btn-sm {
+  padding: 10px 12px;
+}
+.btn-xs {
+  padding: 6px 10px;
+}
+.btn-primary {
+  background: #A83F25;
+  border: 1px solid #A83F25;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: #D38B5D;
+  border: 1px solid #A83F25;
+}
+.btn-success,
+.btn-secondary {
+  background: #2C5530;
+  border: 1px solid #2C5530;
+}
+.btn-success:hover,
+.btn-secondary:hover,
+.btn-success:active,
+.btn-secondary:active,
+.btn-success:focus,
+.btn-secondary:focus {
+  background: #739E82;
+  border: 1px solid #2C5530;
+}
+q {
+  quotes: "“" "”" "‘" "’";
+}
+q:before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
+}
+.testimonial blockquote {
+  border: none;
+  padding: 10px 0;
+}
