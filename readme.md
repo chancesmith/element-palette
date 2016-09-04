@@ -1,1 +1,1 @@
-Shows bootstrap element ready for color and design to show clients.
+Shows Bootstrap elements ready for color and design to show clients.
